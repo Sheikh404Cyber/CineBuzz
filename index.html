@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CineBuzz - Movie & Web Series Reviews</title>
+<meta name="description" content="CineBuzz - Latest movie and web series reviews, ratings, trailers, and news.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= PRELOADER ================= -->
+<div id="preloader">
+  <div class="reel"></div>
+</div>
+
+<!-- ================= NAVBAR ================= -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">Cine<span>Buzz</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="#movies">Movies</a></li>
+      <li><a href="#webseries">Web Series</a></li>
+      <li><a href="#comingsoon">Coming Soon</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button id="themeToggle" aria-label="Toggle theme">🌙</button>
+      <button id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header class="hero">
+  <canvas id="particles"></canvas>
+  <div class="hero-overlay"></div>
+  <div class="hero-content reveal">
+    <p class="hero-tag">🎬 Featured This Week</p>
+    <h1 class="hero-title">Dune: <span>Part Three</span></h1>
+    <p class="hero-desc">An epic sci-fi saga continues. Read our in-depth spoiler-free review, ratings, cast details, and watch the official trailer.</p>
+    <div class="hero-meta">
+      <span class="badge">⭐ 8.9/10</span>
+      <span class="badge">2026</span>
+      <span class="badge">Sci-Fi • Adventure</span>
+    </div>
+    <div class="hero-btns">
+      <a href="movie-details.html" class="btn btn-primary">Read Review</a>
+      <a href="#trailer" class="btn btn-outline">▶ Watch Trailer</a>
+    </div>
+  </div>
+</header>
+
+<!-- ADSTERRA AD SLOT: Banner 728x90 (Leaderboard) - এখানে Adsterra স্ক্রিপ্ট বসান -->
+<div class="ad-slot ad-leaderboard">
+  <!-- PASTE ADSTERRA 728x90 CODE HERE -->
+</div>
+
+<!-- ================= TRENDING MOVIES ================= -->
+<section id="movies" class="section">
+  <div class="sec-head reveal">
+    <p class="sec-tag">🔥 Trending Now</p>
+    <h2 class="sec-title">Popular Movies</h2>
+  </div>
+  <div class="movie-grid">
+
+    <div class="movie-card reveal">
+      <div class="poster">
+        <img src="https://picsum.photos/seed/movie1/300/450" alt="Movie Poster">
+        <div class="poster-overlay">
+          <a href="movie-details.html" class="view-btn">View Details</a>
+        </div>
+        <span class="rating">⭐ 8.9</span>
+      </div>
+      <h3>Dune: Part Three</h3>
+      <p class="meta">2026 • Sci-Fi</p>
+    </div>
+
+    <div class="movie-card reveal">
+      <div class="poster">
+        <img src="https://picsum.photos/seed/movie2/300/450" alt="Movie Poster">
+        <div class="poster-overlay">
+          <a href="movie-details.html" class="view-btn">View Details</a>
+        </div>
+        <span class="rating">⭐ 8.2</span>
+      </div>
+      <h3>The Last Signal</h3>
+      <p class="meta">2026 • Thriller</p>
+    </div>
+
+    <div class="movie-card reveal">
+      <div class="poster">
+        <img src="https://picsum.photos/seed/movie3/300/450" alt="Movie Poster">
+        <div class="poster-overlay">
+          <a href="movie-details.html" class="view-btn">View Details</a>
+        </div>
+        <span class="rating">⭐ 7.8</span>
+      </div>
+      <h3>Crimson Hour</h3>
+      <p class="meta">2025 • Action</p>
+    </div>
+
+    <div class="movie-card reveal">
+      <div class="poster">
+        <img src="https://picsum.photos/seed/movie4/300/450" alt="Movie Poster">
+        <div class="poster-overlay">
+          <a href="movie-details.html" class="view-btn">View Details</a>
+        </div>
+        <span class="rating">⭐ 9.1</span>
+      </div>
+      <h3>Echoes of Tomorrow</h3>
+      <p class="meta">2026 • Drama</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= WEB SERIES ================= -->
+<section id="webseries" class="section alt-bg">
+  <div class="sec-head reveal">
+    <p class="sec-tag">📺 Binge Worthy</p>
+    <h2 class="sec-title">Popular Web Series</h2>
+  </div>
+  <div class="movie-grid">
+
+    <div class="movie-card reveal">
+      <div class="poster">
+        <img src="https://picsum.photos/seed/series1/300/450" alt="Series Poster">
+        <div class="poster-overlay">
+          <a href="movie-details.html" class="view-btn">View Details</a>
+        </div>
+        <span class="rating">⭐ 8.7</span>
+      </div>
+      <h3>Shadow Protocol</h3>
+      <p class="meta">S2 • Thriller</p>
+    </div>
+
+    <div class="movie-card reveal">
+      <div class="poster">
+        <img src="https://picsum.photos/seed/series2/300/450" alt="Series Poster">
+        <div class="poster-overlay">
+          <a href="movie-details.html" class="view-btn">View Details</a>
+        </div>
+        <span class="rating">⭐ 9.0</span>
+      </div>
+      <h3>Kingdom of Ash</h3>
+      <p class="meta">S1 • Fantasy</p>
+    </div>
+
+    <div class="movie-card reveal">
+      <div class="poster">
+        <img src="https://picsum.photos/seed/series3/300/450" alt="Series Poster">
+        <div class="poster-overlay">
+          <a href="movie-details.html" class="view-btn">View Details</a>
+        </div>
+        <span class="rating">⭐ 8.1</span>
+      </div>
+      <h3>Midnight Ledger</h3>
+      <p class="meta">S3 • Crime</p>
+    </div>
+
+    <div class="movie-card reveal">
+      <div class="poster">
+        <img src="https://picsum.photos/seed/series4/300/450" alt="Series Poster">
+        <div class="poster-overlay">
+          <a href="movie-details.html" class="view-btn">View Details</a>
+        </div>
+        <span class="rating">⭐ 7.6</span>
+      </div>
+      <h3>Glass Horizon</h3>
+      <p class="meta">S1 • Romance</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ADSTERRA AD SLOT: Native Banner - এখানে Adsterra native banner কোড বসান -->
+<div class="ad-slot ad-native">
+  <!-- PASTE ADSTERRA NATIVE BANNER CODE HERE -->
+</div>
+
+<!-- ================= COMING SOON ================= -->
+<section id="comingsoon" class="section">
+  <div class="sec-head reveal">
+    <p class="sec-tag">🎬 Mark Your Calendar</p>
+    <h2 class="sec-title">Coming Soon</h2>
+  </div>
+  <div class="coming-grid">
+
+    <div class="coming-card reveal">
+      <img src="https://picsum.photos/seed/soon1/300/450" alt="Poster">
+      <div class="coming-info">
+        <h3>Neon Requiem</h3>
+        <p class="countdown" data-date="2026-10-15">--</p>
+      </div>
+    </div>
+
+    <div class="coming-card reveal">
+      <img src="https://picsum.photos/seed/soon2/300/450" alt="Poster">
+      <div class="coming-info">
+        <h3>The Silent Order</h3>
+        <p class="countdown" data-date="2026-11-02">--</p>
+      </div>
+    </div>
+
+    <div class="coming-card reveal">
+      <img src="https://picsum.photos/seed/soon3/300/450" alt="Poster">
+      <div class="coming-info">
+        <h3>Firelight</h3>
+        <p class="countdown" data-date="2026-12-20">--</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= LATEST REVIEWS ================= -->
+<section id="reviews" class="section alt-bg">
+  <div class="sec-head reveal">
+    <p class="sec-tag">✍️ From the Blog</p>
+    <h2 class="sec-title">Latest Reviews</h2>
+  </div>
+  <div class="review-list">
+
+    <a href="movie-details.html" class="review-item reveal">
+      <img src="https://picsum.photos/seed/rev1/200/120" alt="Review">
+      <div>
+        <h3>Dune: Part Three — A Visual Masterpiece</h3>
+        <p>An ambitious closing chapter that mostly delivers on its epic promise, though pacing stumbles in the second act...</p>
+        <span class="review-rating">⭐ 8.9/10</span>
+      </div>
+    </a>
+
+    <a href="movie-details.html" class="review-item reveal">
+      <img src="https://picsum.photos/seed/rev2/200/120" alt="Review">
+      <div>
+        <h3>Shadow Protocol Season 2 — Sharper, Darker</h3>
+        <p>The sophomore season raises the stakes considerably, trading exposition for tension and character depth...</p>
+        <span class="review-rating">⭐ 8.7/10</span>
+      </div>
+    </a>
+
+    <a href="movie-details.html" class="review-item reveal">
+      <img src="https://picsum.photos/seed/rev3/200/120" alt="Review">
+      <div>
+        <h3>Echoes of Tomorrow Review — This Year's Best Drama?</h3>
+        <p>A quiet, devastating meditation on memory and loss, anchored by career-best performances...</p>
+        <span class="review-rating">⭐ 9.1/10</span>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<!-- ================= NEWSLETTER ================= -->
+<section class="newsletter reveal">
+  <h2>Never Miss a Release</h2>
+  <p>Get weekly movie & web series updates straight to your inbox.</p>
+  <form id="newsletterForm">
+    <input type="email" placeholder="Enter your email" required>
+    <button type="submit">Notify Me</button>
+  </form>
+  <p id="newsletterMsg"></p>
+</section>
+
+<!-- ADSTERRA AD SLOT: Banner 300x250 (footer top) - এখানে Adsterra কোড বসান -->
+<div class="ad-slot ad-rectangle">
+  <!-- PASTE ADSTERRA 300x250 CODE HERE -->
+</div>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="logo">Cine<span>Buzz</span></a>
+      <p>Honest movie & web series reviews, ratings, and news — no spoilers, no fluff.</p>
+    </div>
+    <div class="footer-links">
+      <h4>Explore</h4>
+      <a href="#movies">Movies</a>
+      <a href="#webseries">Web Series</a>
+      <a href="#comingsoon">Coming Soon</a>
+      <a href="#reviews">Reviews</a>
+    </div>
+    <div class="footer-links">
+      <h4>Connect</h4>
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">Telegram</a>
+    </div>
+  </div>
+  <p class="copyright">© 2026 CineBuzz. All rights reserved. All posters/media belong to their respective owners.</p>
+</footer>
+
+<!-- ADSTERRA AD SLOT: Social Bar - সাধারণত body এর শেষে একবার বসাতে হয় -->
+<!-- PASTE ADSTERRA SOCIAL BAR CODE HERE -->
+
+<!-- ADSTERRA AD SLOT: Popunder - সাধারণত body এর শেষে একবার বসাতে হয় -->
+<!-- PASTE ADSTERRA POPUNDER CODE HERE -->
+
+<button id="backToTop">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
